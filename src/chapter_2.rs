@@ -5,23 +5,23 @@
    You may recognize these from other programming languages. Let’s jump into how they work in Rust.  */
 pub fn scalartypes(){
     println!("          
-                        INTEGER TYPES
+                         INTEGER TYPES
                LENGTH	   SIGNED	  UNSIGNED
-                8-bit        i8         u8
+                8-bit        i8       u8
                 16-bit	     i16	    u16
                 32-bit	     i32	    u32
                 64-bit	     i64	    u64
                 128-bit	     i128	    u128
-                arch	     isize	    usize     ");
+                arch	     isize	    usize      ");
 
-    println!("          
+    println!("           
                         INTEGER LITERALS
                NUMBER_LITERALS	     EXAMPLE
-                 Decimal	          98_22
-                 Hex	              0xff
+                 Decimal	            98_22
+                 Hex	                0xff
                  Octal	              0o77
                  Binary	              0b1111_0000
-                 Byte(u8 only)	      b'A'        ");
+                 Byte(u8 only)	      b'A'         ");
 
     let x: f64 = 3.2;
     let y: f32 = 2.2;
