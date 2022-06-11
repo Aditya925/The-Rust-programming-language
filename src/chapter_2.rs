@@ -58,7 +58,6 @@ pub fn numeric_operations(){
    Compound types can group multiple values into one type. Rust has two primitive compound types: tuples and arrays. */
 
 // TUPLE
-
 pub fn tuple(){
         let tup: (i32, f64, u8) = (500, 6.4, 1);
         let tup1 = (100, 200, 3969);
@@ -75,7 +74,6 @@ pub fn tuple(){
 }
 
 // ARRAY
-
 pub fn array(){
         let a = [1, 2, 3, 4, 5];
         let months = ["January", "February", "March", "April", "May", "June", "July",
@@ -100,7 +98,6 @@ pub fn array(){
 }
 
 // FUNCTIONS
-
 pub fn function(){
         println!("Hello World");
         another_function();
@@ -110,14 +107,12 @@ fn another_function(){
 }
 
 // PARAMETERS
-
 pub fn parameters(){
         cube_of_number(10);
 }
 fn cube_of_number(x :i32){
         println!("Cube of number entered is: {}",x*x*x);
 }
-
 // Another example
 pub fn display() {
         print_labeled_measurement(5, 'h');
@@ -127,7 +122,6 @@ fn print_labeled_measurement(value: i32, unit_label: char) {
 }
 
 // RETURN VALUES
-
 pub fn no_parameter() {
         let x = five();
         println!("The value of x is: {}", x);
@@ -135,7 +129,6 @@ pub fn no_parameter() {
 fn five() -> i32 {
         5
 }
-
 // Example with parameters
 pub fn with_parameter() {
         let x = plus_one(5);

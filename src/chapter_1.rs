@@ -1,7 +1,6 @@
 /* COMMON PROGRAMMING CONCEPTS */
 
 // PRINTING
-
 pub fn print(){
     println!("  
                 Extreme ways are back again
