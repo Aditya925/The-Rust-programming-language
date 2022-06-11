@@ -31,7 +31,7 @@ pub fn scalartypes(){
         let f: bool = false;
         println!(" BOOLEAN_TYPES ARE: {} & {}",t,f);
 
-         let c: char = 'z';
+        let c: char = 'z';
         let z: char = 'ℤ';
         let heart_eyed_cat: char = '😻';
         println!(" CHARACTER_TYPES ARE: {} & {} & {}",c,z,heart_eyed_cat);
