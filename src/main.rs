@@ -7,4 +7,6 @@ fn main(){
     chapter_1::shadowing();
     chapter_2::scalartypes();
     chapter_2::numeric_operations();
+    chapter_2::tuple();
+    chapter_2::array();
 }
