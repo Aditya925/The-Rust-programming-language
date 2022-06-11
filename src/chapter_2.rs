@@ -3,7 +3,6 @@
 /* SCALAR TYPES
    A scalar type represents a single value. Rust has four primary scalar types: integers, floating-point numbers, Booleans, and characters. 
    You may recognize these from other programming languages. Let’s jump into how they work in Rust.  */
-
 pub fn scalartypes(){
         println!("          
                                INTEGER TYPES
@@ -38,8 +37,7 @@ pub fn scalartypes(){
 }
 
 
-/* NUMERIC OPERATIONS */
-
+// NUMERIC OPERATIONS
 pub fn numeric_operations(){
         let x: i32 = 5;
         let y: i32 = 9;
@@ -56,7 +54,6 @@ pub fn numeric_operations(){
 
 /* COMPOUND TYPES
    Compound types can group multiple values into one type. Rust has two primitive compound types: tuples and arrays. */
-
 // TUPLE
 pub fn tuple(){
         let tup: (i32, f64, u8) = (500, 6.4, 1);
