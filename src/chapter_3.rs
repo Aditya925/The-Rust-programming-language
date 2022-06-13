@@ -1,7 +1,6 @@
 // CONTROL FLOWS
  
 // If-Else statements
-
 pub fn conditions() {
     let number: i32 = 6;
     if number % 4 == 0 {
