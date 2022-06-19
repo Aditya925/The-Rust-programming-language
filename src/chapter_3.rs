@@ -1,6 +1,6 @@
 // CONTROL FLOWS
  
-// If-Else statements
+// If-Else statements.
 pub fn conditions() {
     let number: i32 = 6;
     if number % 4 == 0 {
@@ -14,7 +14,7 @@ pub fn conditions() {
     }
 }
 
-// Using if in a let Statement
+// Using if in a let Statement.
 pub fn if_in_let() {
     let condition = true;
     let number = if condition { 5 } else { 6 };
@@ -22,7 +22,7 @@ pub fn if_in_let() {
 }
 
 // LOOPS
-// Rust has three kinds of loops: loop, while, and for
+// Rust has three kinds of loops: loop, while, and for.
 
 // Loop
 /* The loop keyword tells Rust to execute a block of code over and over again forever or until you explicitly 
