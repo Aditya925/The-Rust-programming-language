@@ -2,14 +2,7 @@
 
 // PRINTING
 pub fn print(){
-    println!("  
-                Extreme ways are back again
-                Extreme places I didn't know
-                I broke everything new again
-                Everything that I'd owned
-                I threw it out the windows, came along
-                Extreme ways I know move apart The colors of my sea
-                Perfect color me"  );
+    println!(" HELLO WORLD! ");
     let x: i32 = 50;
     println!(" The value of x is: {}", x);
 }

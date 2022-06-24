@@ -76,6 +76,8 @@ pub fn array(){
         let months = ["January", "February", "March", "April", "May", "June", "July",
                                   "August", "September", "October", "November", "December"];
         
+        println!("Array a is: {:?}",a);
+        
         // Accessing elements
         let first = a[0];
         let second = a[1];
@@ -92,6 +94,13 @@ pub fn array(){
            followed by a semicolon, and then the length of the array in square brackets, as shown here: */
         let k = [3; 5];
         println!(" Initialised array {:?}",k);
+
+        // Mutable arrays
+        let mut array: [i32; 5] = [10,20,30,40,50];
+        println!("Orignal array: {:?}",array);
+        array[0] = 25;
+        println!("Updated array is: {:?}",array);
+
 }
 
 // FUNCTIONS
