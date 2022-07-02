@@ -1,6 +1,7 @@
 mod chapter_1;
 mod chapter_2;
 mod chapter_3;
+mod chapter_4;
 mod practice;
 
 fn main(){
@@ -22,6 +23,7 @@ fn main(){
     chapter_3::simple_loop();
     chapter_3::returning_values_from_loops();
     chapter_3::while_loop();
-    chapter_3::for_loop();*/
-    practice::run();
+    chapter_3::for_loop();
+    practice::run();*/
 }
+
