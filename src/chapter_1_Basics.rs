@@ -1,5 +1,4 @@
-/* COMMON PROGRAMMING CONCEPTS */
-
+// COMMON PROGRAMMING CONCEPTS
 // PRINTING
 pub fn print(){
     println!(" HELLO WORLD! ");

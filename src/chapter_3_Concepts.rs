@@ -1,5 +1,4 @@
-// CONTROL FLOWS
- 
+// CONTROL FLOWS 
 // If-Else statements.
 pub fn conditions() {
     let number: i32 = 6;
