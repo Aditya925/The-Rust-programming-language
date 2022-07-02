@@ -25,5 +25,6 @@ fn main(){
     chapter_3_concepts::while_loop();
     chapter_3_concepts::for_loop();*/
     chapter_4_ownership::run();
+    chapter_4_ownership::example();
 }
 
